@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tshark -r /Users/mchow/Documents/DefenseAgainstTheDarkArts/old/ctf/ctf-spring2026/www/lol.pcap -T fields -e udp.dstport)",
+      "Bash(tshark -r /Users/mchow/Documents/DefenseAgainstTheDarkArts/old/ctf/ctf-spring2026/www/lol.pcap -T fields -e udp.dstport -e data)",
+      "Bash(grep -v \"^6032$\")"
+    ]
+  }
+}
